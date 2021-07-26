@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Navigation Bar  */
+.nav {
+    background: rgb(184, 184, 184);
+    width: 850px;
+    height: 70px;
+    margin: 0px 100px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left {
+    width: 900px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title {
+    margin: 0px 20px 0px 0px;
+    padding: 10px 10px 10px 0px;
+}
+.nav-left input {
+    width: 300px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.nav-button {
+    color: white;
+    background-color: rgb(46, 99, 243);
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+    margin: 0px 20px 0px 60px;
+    padding: 5px 10px 5px 10px;
+}
+
+/* container */
+.container {
+    width: 960px;
+    margin: 30px 100px 30px 100px;
+    display: flex;
+}
+
+/* left top box*/
+.container-left {
+    width: 500px;
+    /* height: 200px; */
+    border: 3px solid black;
+    margin: 0px 25px 25px 0px;
+    padding: 5px 5px 20px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-left {
+    width: 100px;
+    /* height: 100%; */
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-left button {
+    background-color: rgb(255, 222, 32);
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 0px;
+    margin: 10px 5px 5px 5px;
+    padding: 5px 15px 5px 15px;
+}
+.main-right {
+    width: 355px;
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+}
+/* left bottom box */
+/* Nothing so far */
+
+/* right top box */
+.container-right {
+    width: 295px;
+    height: 150px;
+    border: 3px solid black;
+    margin: 0px 0px 25px 0px;
+    padding: 5px 5px 20px 5px;
+}
+.main {
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+}
+
+.main button {
+    width: 200px;
+    background-color: rgb(145, 211, 145);
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 0px;
+    font-size: medium;
+    margin: 5px 20px 5px 25px;
+    padding: 5px 20px 5px 20px;
+}
